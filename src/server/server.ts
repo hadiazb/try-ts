@@ -20,6 +20,16 @@ export class Server {
         credentials: true
       }
     });
+
+    this.initTest();
+  }
+
+  public initTest() {
+    this.application.get('/', (req, res) => {
+      res.send({
+        Hola: 'mundo'
+      });
+    });
   }
 
   public start() {
