@@ -6,7 +6,7 @@
   "scripts": {
     "ts": "tsc -w",
     "dev": "SET ENV_APP=dev & nodemon  ./build/index",
-    "build": "tsc && node ./build/index",
+    "server": "tsc && node ./build/index",
     "lint": "eslint ./src/**/*.ts --quiet --fix"
   },
   "keywords": [],
