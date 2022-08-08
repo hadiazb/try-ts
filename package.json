@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "ts": "tsc -w",
-    "dev": "SET ENV_APP=dev & nodemon  ./build/index",
-    "start": "tsc && node ./build/index",
+    "dev": "SET ENV_APP=dev & nodemon  ./dist/index",
+    "start": "tsc && node ./dist/index",
     "lint": "eslint ./src/**/*.ts --quiet --fix"
   },
   "keywords": [],
