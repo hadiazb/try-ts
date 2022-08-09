@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index",
     "ts": "tsc -w",
     "dev": "nodemon  ./dist/index",
-    "start": "tsc && node ./dist/index",
     "lint": "eslint ./src/**/*.ts --quiet --fix"
   },
   "keywords": [],
